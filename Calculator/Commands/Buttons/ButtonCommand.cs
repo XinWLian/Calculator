@@ -14,7 +14,7 @@ namespace Calculator.Commands
         public ButtonCommand(CalculatorViewModel calculatorViewModel, CalculatorHistory calculations)
         {
             _calculations = calculations;
-            _calculatorViewModel = calculatorViewModel;
+            _calculatorViewModel = calculatorViewModel; 
         }
     }
 }

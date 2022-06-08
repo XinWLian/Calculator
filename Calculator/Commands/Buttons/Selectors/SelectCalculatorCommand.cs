@@ -13,7 +13,7 @@ namespace Calculator.Commands.Buttons.Selectors
             _navigationStore = navigationStore;
             _calculations = calculations;
         }
-        public override void Execute(object parameter)
+        public override void Execute(object parameter) 
         {
             _navigationStore.CurrentViewModel = new CalculatorViewModel(_calculations);
         }

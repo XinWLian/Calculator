@@ -17,7 +17,7 @@ namespace Calculator.Commands.Buttons.Selectors
             _calculations = calculations;
         }
         public override void Execute(object parameter)
-        {
+        { 
             _navigationStore.CurrentViewModel = new HistoryViewModel(_calculations);
         }
     }
