@@ -12,6 +12,8 @@ namespace Calculator.Model
         {
             DisplayedNumber = value;
             PreviousSequence = previousString;
+
+
         }
 
     }
